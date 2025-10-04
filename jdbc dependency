@@ -9,3 +9,5 @@
 jdbc:postgresql://localhost:5432/dbname
 postrges
 root
+
+org.postgresql.Driver
