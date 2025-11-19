@@ -6,3 +6,21 @@
 </dependency>
 
 https://tomcat.apache.org/download-10.cgi
+apache-tomcat-10.0.x.zip
+
+
+C:\Servers\apache-tomcat-10.0.27
+bin
+conf
+lib
+webapps
+logs
+temp
+work
+LICENSE
+README
+
+
+Window → Preferences → Server → Runtime Environments → Add
+Apache Tomcat v10.0
+C:\Servers\apache-tomcat-10.0.27
