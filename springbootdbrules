@@ -1,0 +1,45 @@
+spring.application.name=Online_food_ordering_system
+# ===============================
+# SERVER CONFIGURATION
+# ===============================
+server.port=8080
+
+# ===============================
+# DATABASE CONFIGURATION
+# ===============================
+spring.datasource.url=jdbc:postgresql://localhost:5432/springbootfinalproject
+spring.datasource.username=postgres
+spring.datasource.password=root
+
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+# ===============================
+# JPA / HIBERNATE CONFIGURATION
+# ===============================
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+
+# create | update | validate
+spring.jpa.hibernate.ddl-auto=update
+
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+# ===============================
+# THYMELEAF CONFIGURATION
+# ===============================
+spring.thymeleaf.prefix=classpath:/templates/
+spring.thymeleaf.suffix=.html
+spring.thymeleaf.mode=HTML
+spring.thymeleaf.cache=false
+
+# ===============================
+# STATIC RESOURCES
+# ===============================
+spring.web.resources.static-locations=classpath:/static/
+
+# ===============================
+# LOGGING (OPTIONAL)
+# ===============================
+logging.level.org.hibernate.SQL=DEBUG
+logging.level.org.hibernate.type.descriptor.sql.BasicBinder=TRACE
+
