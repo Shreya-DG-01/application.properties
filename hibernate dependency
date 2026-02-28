@@ -11,3 +11,10 @@
     <version>1.18.34</version> <!-- check latest version -->
     <scope>provided</scope>
 </dependency>
+
+//prevent recurrsive calls
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-annotations</artifactId>
+    <version>2.13.3</version>
+</dependency>
